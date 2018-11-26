@@ -21,9 +21,10 @@ public class Main {
 			numbers.add(r.nextInt(1000));			
 		}
 		System.out.println(numbers);
-		bubbleSort.sort(numbers);		
+		//bubbleSort.sort(numbers);		
 		System.out.println(numbers);
 //		insertSort.sort(numbers);
-//		mergeSort.sort(numbers);
+		mergeSort.sort(numbers);
+                System.out.println(numbers);
 	}
 }
